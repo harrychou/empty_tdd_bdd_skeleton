@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E623A9D5-2CF0-4EC3-A36A-33A1BA78907D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ProjectSkeleton</RootNamespace>
+    <AssemblyName>ProjectSkeleton</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="lib\castle\Castle.ActiveRecord.dll" />
+    <Content Include="lib\castle\Castle.ActiveRecord.pdb" />
+    <Content Include="lib\castle\Castle.ActiveRecord.xml" />
+    <Content Include="lib\castle\Castle.Components.Binder.dll" />
+    <Content Include="lib\castle\Castle.Components.Binder.pdb" />
+    <Content Include="lib\castle\Castle.Components.Binder.xml" />
+    <Content Include="lib\castle\Castle.Components.Common.EmailSender.dll" />
+    <Content Include="lib\castle\Castle.Components.Common.EmailSender.pdb" />
+    <Content Include="lib\castle\Castle.Components.Common.EmailSender.xml" />
+    <Content Include="lib\castle\Castle.Components.Common.TemplateEngine.dll" />
+    <Content Include="lib\castle\Castle.Components.Common.TemplateEngine.NVelocityTemplateEngine.dll" />
+    <Content Include="lib\castle\Castle.Components.Common.TemplateEngine.NVelocityTemplateEngine.pdb" />
+    <Content Include="lib\castle\Castle.Components.Common.TemplateEngine.NVelocityTemplateEngine.xml" />
+    <Content Include="lib\castle\Castle.Components.Common.TemplateEngine.pdb" />
+    <Content Include="lib\castle\Castle.Components.Common.TemplateEngine.xml" />
+    <Content Include="lib\castle\Castle.Components.DictionaryAdapter.dll" />
+    <Content Include="lib\castle\Castle.Components.DictionaryAdapter.pdb" />
+    <Content Include="lib\castle\Castle.Components.DictionaryAdapter.xml" />
+    <Content Include="lib\castle\Castle.Components.Validator.dll" />
+    <Content Include="lib\castle\Castle.Components.Validator.pdb" />
+    <Content Include="lib\castle\Castle.Components.Validator.Tests.dll" />
+    <Content Include="lib\castle\Castle.Components.Validator.Tests.pdb" />
+    <Content Include="lib\castle\Castle.Components.Validator.Tests.xml" />
+    <Content Include="lib\castle\Castle.Components.Validator.xml" />
+    <Content Include="lib\castle\Castle.Core.dll" />
+    <Content Include="lib\castle\Castle.Core.pdb" />
+    <Content Include="lib\castle\Castle.Core.xml" />
+    <Content Include="lib\castle\Castle.DynamicProxy.dll" />
+    <Content Include="lib\castle\Castle.DynamicProxy.license.txt" />
+    <Content Include="lib\castle\Castle.DynamicProxy.pdb" />
+    <Content Include="lib\castle\Castle.DynamicProxy.xml" />
+    <Content Include="lib\castle\Castle.DynamicProxy2.dll" />
+    <Content Include="lib\castle\Castle.DynamicProxy2.pdb" />
+    <Content Include="lib\castle\Castle.DynamicProxy2.xml" />
+    <Content Include="lib\castle\Castle.Facilities.ActiveRecordIntegration.dll" />
+    <Content Include="lib\castle\Castle.Facilities.ActiveRecordIntegration.pdb" />
+    <Content Include="lib\castle\Castle.Facilities.ActiveRecordIntegration.xml" />
+    <Content Include="lib\castle\Castle.Facilities.AutomaticTransactionManagement.dll" />
+    <Content Include="lib\castle\Castle.Facilities.AutomaticTransactionManagement.pdb" />
+    <Content Include="lib\castle\Castle.Facilities.AutomaticTransactionManagement.xml" />
+    <Content Include="lib\castle\Castle.Facilities.BatchRegistration.dll" />
+    <Content Include="lib\castle\Castle.Facilities.BatchRegistration.pdb" />
+    <Content Include="lib\castle\Castle.Facilities.BatchRegistration.xml" />
+    <Content Include="lib\castle\Castle.Facilities.Cache.dll" />
+    <Content Include="lib\castle\Castle.Facilities.Cache.pdb" />
+    <Content Include="lib\castle\Castle.Facilities.Cache.xml" />
+    <Content Include="lib\castle\Castle.Facilities.Db4oIntegration.dll" />
+    <Content Include="lib\castle\Castle.Facilities.Db4oIntegration.pdb" />
+    <Content Include="lib\castle\Castle.Facilities.Db4oIntegration.xml" />
+    <Content Include="lib\castle\Castle.Facilities.DynamicLoader.dll" />
+    <Content Include="lib\castle\Castle.Facilities.DynamicLoader.pdb" />
+    <Content Include="lib\castle\Castle.Facilities.DynamicLoader.xml" />
+    <Content Include="lib\castle\Castle.Facilities.IBatisNetIntegration.dll" />
+    <Content Include="lib\castle\Castle.Facilities.IBatisNetIntegration.pdb" />
+    <Content Include="lib\castle\Castle.Facilities.IBatisNetIntegration.xml" />
+    <Content Include="lib\castle\Castle.Facilities.Logging.dll" />
+    <Content Include="lib\castle\Castle.Facilities.Logging.pdb" />
+    <Content Include="lib\castle\Castle.Facilities.Logging.xml" />
+    <Content Include="lib\castle\Castle.Facilities.NHibernateIntegration.dll" />
+    <Content Include="lib\castle\Castle.Facilities.NHibernateIntegration.pdb" />
+    <Content Include="lib\castle\Castle.Facilities.NHibernateIntegration.xml" />
+    <Content Include="lib\castle\Castle.Facilities.Prevalence.dll" />
+    <Content Include="lib\castle\Castle.Facilities.Prevalence.pdb" />
+    <Content Include="lib\castle\Castle.Facilities.Prevalence.xml" />
+    <Content Include="lib\castle\Castle.Facilities.Remoting.TestComponents.dll" />
+    <Content Include="lib\castle\Castle.Facilities.Remoting.TestComponents.pdb" />
+    <Content Include="lib\castle\Castle.Facilities.Remoting.TestComponents.xml" />
+    <Content Include="lib\castle\Castle.Facilities.Synchronize.dll" />
+    <Content Include="lib\castle\Castle.Facilities.Synchronize.pdb" />
+    <Content Include="lib\castle\Castle.Facilities.Synchronize.xml" />
+    <Content Include="lib\castle\Castle.Facilities.WcfIntegration.Demo.dll" />
+    <Content Include="lib\castle\Castle.Facilities.WcfIntegration.Demo.pdb" />
+    <Content Include="lib\castle\Castle.Facilities.WcfIntegration.Demo.xml" />
+    <Content Include="lib\castle\Castle.Facilities.WcfIntegration.dll" />
+    <Content Include="lib\castle\Castle.Facilities.WcfIntegration.pdb" />
+    <Content Include="lib\castle\Castle.Facilities.WcfIntegration.xml" />
+    <Content Include="lib\castle\Castle.MicroKernel.dll" />
+    <Content Include="lib\castle\Castle.MicroKernel.pdb" />
+    <Content Include="lib\castle\Castle.MicroKernel.xml" />
+    <Content Include="lib\castle\Castle.MonoRail.ActiveRecordScaffold.dll" />
+    <Content Include="lib\castle\Castle.MonoRail.ActiveRecordScaffold.pdb" />
+    <Content Include="lib\castle\Castle.MonoRail.ActiveRecordScaffold.xml" />
+    <Content Include="lib\castle\Castle.MonoRail.ActiveRecordSupport.dll" />
+    <Content Include="lib\castle\Castle.MonoRail.ActiveRecordSupport.pdb" />
+    <Content Include="lib\castle\Castle.MonoRail.ActiveRecordSupport.xml" />
+    <Content Include="lib\castle\Castle.MonoRail.Framework.dll" />
+    <Content Include="lib\castle\Castle.MonoRail.Framework.pdb" />
+    <Content Include="lib\castle\Castle.MonoRail.Framework.Views.NVelocity.dll" />
+    <Content Include="lib\castle\Castle.MonoRail.Framework.Views.NVelocity.pdb" />
+    <Content Include="lib\castle\Castle.MonoRail.Framework.Views.NVelocity.xml" />
+    <Content Include="lib\castle\Castle.MonoRail.Framework.xml" />
+    <Content Include="lib\castle\Castle.MonoRail.JSONSupport.dll" />
+    <Content Include="lib\castle\Castle.MonoRail.JSONSupport.pdb" />
+    <Content Include="lib\castle\Castle.MonoRail.JSONSupport.xml" />
+    <Content Include="lib\castle\Castle.MonoRail.TestSupport.dll" />
+    <Content Include="lib\castle\Castle.MonoRail.TestSupport.pdb" />
+    <Content Include="lib\castle\Castle.MonoRail.TestSupport.xml" />
+    <Content Include="lib\castle\Castle.MonoRail.TransformFilters.dll" />
+    <Content Include="lib\castle\Castle.MonoRail.TransformFilters.pdb" />
+    <Content Include="lib\castle\Castle.MonoRail.TransformFilters.xml" />
+    <Content Include="lib\castle\Castle.MonoRail.Views.Brail.dll" />
+    <Content Include="lib\castle\Castle.MonoRail.Views.Brail.pdb" />
+    <Content Include="lib\castle\Castle.MonoRail.Views.Brail.xml" />
+    <Content Include="lib\castle\Castle.MonoRail.WindsorExtension.dll" />
+    <Content Include="lib\castle\Castle.MonoRail.WindsorExtension.pdb" />
+    <Content Include="lib\castle\Castle.MonoRail.WindsorExtension.xml" />
+    <Content Include="lib\castle\Castle.Services.Logging.Log4netIntegration.dll" />
+    <Content Include="lib\castle\Castle.Services.Logging.Log4netIntegration.pdb" />
+    <Content Include="lib\castle\Castle.Services.Logging.Log4netIntegration.xml" />
+    <Content Include="lib\castle\Castle.Services.Logging.NLogIntegration.dll" />
+    <Content Include="lib\castle\Castle.Services.Logging.NLogIntegration.pdb" />
+    <Content Include="lib\castle\Castle.Services.Logging.NLogIntegration.xml" />
+    <Content Include="lib\castle\Castle.Services.Transaction.dll" />
+    <Content Include="lib\castle\Castle.Services.Transaction.pdb" />
+    <Content Include="lib\castle\Castle.Services.Transaction.xml" />
+    <Content Include="lib\castle\Castle.Windsor.dll" />
+    <Content Include="lib\castle\Castle.Windsor.pdb" />
+    <Content Include="lib\castle\Castle.Windsor.xml" />
+    <Content Include="lib\castle\CastleDynProxy2.dll" />
+    <Content Include="lib\castle\CastleDynProxy2.pdb" />
+    <Content Include="lib\castle\Db4objects.Db4o.dll" />
+    <Content Include="lib\developwithpassion.bdddoc\developwithpassion.bdddoc-logo.jpg" />
+    <Content Include="lib\developwithpassion.bdddoc\developwithpassion.bdddoc.css" />
+    <Content Include="lib\developwithpassion.bdddoc\developwithpassion.bdddoc.exe" />
+    <Content Include="lib\developwithpassion.bdd\developwithpassion.bdd.dll" />
+    <Content Include="lib\developwithpassion.bdd\developwithpassion.bdd.pdb" />
+    <Content Include="lib\developwithpassion.bdd\developwithpassion.bdddoc.exe" />
+    <Content Include="lib\developwithpassion.commons\developwithpassion.commons.core.infrastructure.dll" />
+    <Content Include="lib\developwithpassion.commons\developwithpassion.commons.core.infrastructure.pdb" />
+    <Content Include="lib\fluent.nhibernate\FluentNHibernate.dll" />
+    <Content Include="lib\fluent.nhibernate\FluentNHibernate.Framework.dll" />
+    <Content Include="lib\fluent.nhibernate\FluentNHibernate.Framework.pdb" />
+    <Content Include="lib\fluent.nhibernate\FluentNHibernate.pdb" />
+    <Content Include="lib\fluent.nhibernate\FluentNHibernate.XML" />
+    <Content Include="lib\log4net\log4net.dll" />
+    <Content Include="lib\log4net\log4net.pdb" />
+    <Content Include="lib\log4net\log4net.xml" />
+    <Content Include="lib\mbunit\MbUnit.AddIn.dll" />
+    <Content Include="lib\mbunit\MbUnit.Cons.exe" />
+    <Content Include="lib\mbunit\MbUnit.Framework.2.0.dll" />
+    <Content Include="lib\mbunit\MbUnit.Framework.2.0.xml" />
+    <Content Include="lib\mbunit\MbUnit.Framework.dll" />
+    <Content Include="lib\mbunit\MbUnit.Framework.xml" />
+    <Content Include="lib\mbunit\MbUnit.GUI.exe" />
+    <Content Include="lib\mbunit\MbUnit.MSBuild.Tasks.dll" />
+    <Content Include="lib\mbunit\MbUnit.Tasks.dll" />
+    <Content Include="lib\mbunit\NGraphviz.dll" />
+    <Content Include="lib\mbunit\NGraphviz.Helpers.dll" />
+    <Content Include="lib\mbunit\NGraphviz.Layout.dll" />
+    <Content Include="lib\mbunit\QuickGraph.Algorithms.dll" />
+    <Content Include="lib\mbunit\QuickGraph.Algorithms.Graphviz.dll" />
+    <Content Include="lib\mbunit\QuickGraph.Algorithms.xml" />
+    <Content Include="lib\mbunit\QuickGraph.dll" />
+    <Content Include="lib\mbunit\QuickGraph.xml" />
+    <Content Include="lib\mbunit\Refly.dll" />
+    <Content Include="lib\mbunit\Refly.xml" />
+    <Content Include="lib\mbunit\TestFu.dll" />
+    <Content Include="lib\mbunit\TestFu.xml" />
+    <Content Include="lib\mbunit\XsdTidy.exe" />
+    <Content Include="lib\nhibernate\Castle.Core.dll" />
+    <Content Include="lib\nhibernate\Castle.Core.xml" />
+    <Content Include="lib\nhibernate\Castle.DynamicProxy.license.txt" />
+    <Content Include="lib\nhibernate\Castle.DynamicProxy2.dll" />
+    <Content Include="lib\nhibernate\Castle.DynamicProxy2.xml" />
+    <Content Include="lib\nhibernate\fit.dll" />
+    <Content Include="lib\nhibernate\hibernate.cfg.xml" />
+    <Content Include="lib\nhibernate\Iesi.Collections.dll" />
+    <Content Include="lib\nhibernate\Iesi.Collections.license.txt" />
+    <Content Include="lib\nhibernate\Iesi.Collections.pdb" />
+    <Content Include="lib\nhibernate\Iesi.Collections.xml" />
+    <Content Include="lib\nhibernate\log4net.dll" />
+    <Content Include="lib\nhibernate\log4net.xml" />
+    <Content Include="lib\nhibernate\NHibernate.dll" />
+    <Content Include="lib\nhibernate\NHibernate.license.txt" />
+    <Content Include="lib\nhibernate\NHibernate.Linq.dll" />
+    <Content Include="lib\nhibernate\NHibernate.Linq.pdb" />
+    <Content Include="lib\nhibernate\NHibernate.xml" />
+    <Content Include="lib\rhino.mocks\acknowledgements.txt" />
+    <Content Include="lib\rhino.mocks\license.txt" />
+    <Content Include="lib\rhino.mocks\Rhino.Mocks.dll" />
+    <Content Include="lib\rhino.mocks\Rhino.Mocks.pdb" />
+    <Content Include="lib\rhino.mocks\Rhino.Mocks.xml" />
+    <Content Include="readme.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="lib\mbunit\MbUnit.Cons.exe.config" />
+    <None Include="lib\mbunit\MbUnit.GUI.exe.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
