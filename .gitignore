@@ -14,6 +14,7 @@ _ReSharper.*
 *.swo
 local_properties.rb
 artifacts
+test-report
 /product/config/app.config.vista
 /product/config/app.config.xp
 /product/config/log4net.config.xml
