@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 10.00
 # Visual Studio 2008
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_Project", "_Project.csproj", "{E623A9D5-2CF0-4EC3-A36A-33A1BA78907D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyProject.Test", "MyProject.Test\MyProject.Test.csproj", "{8229F4AE-A214-47DA-9323-D99D1759F40A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyKata.Test", "MyKata.Test\MyKata.Test.csproj", "{8229F4AE-A214-47DA-9323-D99D1759F40A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

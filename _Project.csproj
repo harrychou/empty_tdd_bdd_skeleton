@@ -221,6 +221,7 @@
   <ItemGroup>
     <None Include="lib\mbunit\MbUnit.Cons.exe.config" />
     <None Include="lib\mbunit\MbUnit.GUI.exe.config" />
+    <None Include="test.bat" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -1,2 +1,2 @@
-Gallio.Echo .\MyProject.Test\bin\Debug\MyProject.Test.dll /report-directory:test-report /report-type:Html
-.\test-report\test-report-20091102-233340.html
+Gallio.Echo .\MyKata.Test\bin\Debug\MyKata.Test.dll /report-directory:test-report /report-type:Html /report-name-format:test-report
+.\test-report\test-report.html

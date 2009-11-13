@@ -1,6 +1,6 @@
 using MbUnit.Framework;
 
-namespace MyProject.Test
+namespace MyKata.Test
 {
     public class Fibonacci
     {
@@ -20,5 +20,4 @@ namespace MyProject.Test
             Assert.AreEqual(Fibonacci.Calculate(6), 8);
         }
     }
-
 }
